@@ -1,0 +1,28 @@
+{
+  "name": "react-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerpalte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhailKilin/ReactTypescriptBoilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhailKilin/ReactTypescriptBoilerplate/issues"
+  },
+  "homepage": "https://github.com/mikhailKilin/ReactTypescriptBoilerplate#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.3.0",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
