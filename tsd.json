@@ -6,31 +6,31 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "react/react.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "redux/redux.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "react-redux/react-redux.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "react/react-dom.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "react-router/history.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "react-router/react-router.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "react-router-redux/react-router-redux.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     },
     "redux-actions/redux-actions.d.ts": {
       "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
     },
     "react-tap-event-plugin/react-tap-event-plugin.d.ts": {
-      "commit": "73f7bb99692823f1811817f9753a02b57af5305e"
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
     }
   }
 }
