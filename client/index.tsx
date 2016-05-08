@@ -11,9 +11,6 @@ import {rootReducer} from './reducers/rootReducer'
 
 const store = createStore(rootReducer)
 
-
-
-
 const history = syncHistoryWithStore(browserHistory, store)
 import * as injectTapEventPlugin from 'react-tap-event-plugin'
 injectTapEventPlugin()

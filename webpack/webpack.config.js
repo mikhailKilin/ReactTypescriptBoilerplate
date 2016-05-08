@@ -5,7 +5,9 @@ const webpack = require('webpack')
 const validate = require('webpack-validator')
 var path = require("path");
 module.exports = validate({
-    entry: './client/index.tsx',
+    entry: ['webpack-dev-server/client?http://0.0.0.0:2992',
+        'webpack/hot/only-dev-server',
+        './client/index.tsx'],
     output: {
         path: __dirname + '/out',
         filename: "[name].js"
@@ -14,9 +16,9 @@ module.exports = validate({
         modulesDirectories: ['node_modules'],
         extensions: ["", ".web.js", ".js", ".§", ".ts", ".tsx"]
     },
-    resolveLoader:{
+    resolveLoader: {
         modulesDirectories: ['node_modules'],
-        moduleTemplates: ['*-loader','*'],
+        moduleTemplates: ['*-loader', '*'],
         extensions: ['', '.js']
     },
     externals: {
