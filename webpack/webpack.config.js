@@ -1,5 +1,4 @@
 'use strict'
-
 const NODE_ENV = process.env.NODE_ENV || 'development'
 const webpack = require('webpack')
 const validate = require('webpack-validator')
@@ -21,9 +20,6 @@ module.exports = validate({
         moduleTemplates: ['*-loader', '*'],
         extensions: ['', '.js']
     },
-    externals: {
-        'react': 'React'
-    },
     debug: true,
     module: {
         loaders: [
@@ -36,6 +32,7 @@ module.exports = validate({
                 test: /\.(js|jsx)(\?.*)?$/,
                 exclude: /\/node_modules\//,
                 loaders: ['react-hot', 'babel-loader?cacheDirectory'],
+                include: path.join(__dirname, "..", "client")
             },
             {
                 test: /\.(png|woff|woff2|eot|ttf)(\?.*)?$/,
@@ -56,5 +53,5 @@ module.exports = validate({
         aggregateTimeout: 100
     },
     devtool: NODE_ENV == 'development' ? "cheap-module-eval-source-map" : "source-map",
-    plugins: []
+    plugins: [new webpack.HotModuleReplacementPlugin()]
 })
